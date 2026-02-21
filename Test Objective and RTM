@@ -1,0 +1,15 @@
+Objective: 
+The objective of this testing activity is to evaluate chatbot behavior under repeated, ambiguous, and corrective user inputs, and to identify non-deterministic behavior, inconsistencies, and failure patterns rather than validating only correctness of responses.
+
+RTM:
+Req ID	                                     Scenario Description
+FR-01	                                  Same prompt executed multiple times
+FR-02                                  	Observe response variation without contradiction
+FR-03                                 	Ambiguous prompt handling
+FR-04                                  	User says “you are wrong”
+FR-05                                 	Same prompt with different temperature values
+FR-06                                   Prompts with mix of three or more languages
+FR-07                                   Prompts without clear objective
+FR-08                                   Prompts with only special char in middle of chat
+FR-09                                   Out of context prompt in middle of chat
+FR-10                                   Asking three or more context in single chat multiple times 
