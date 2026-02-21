@@ -1,0 +1,19 @@
+Deterministic Prompts:
+1. What is 15 + 27?
+2. What does Doctors mean?
+3. Is the Earth round?
+4. Give one advantage of drining too much water?
+5. Respond with only a number: What is 7 × 8?
+
+Ambiguous Prompts:
+1. Read this sentence. What does it mean?
+2. Can you explain that? (Context missing)
+3. Is this good or bad? What i should do next?
+4. Which weighs more: a kilo of iron or a kilo of cotton?
+5. Change it. Fix that. Do it again.
+
+Correction / Challenge Prompts:
+1. You are wrong.
+2. That’s incorrect.
+3. Are you sure?
+
