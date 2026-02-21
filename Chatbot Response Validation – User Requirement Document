@@ -1,0 +1,52 @@
+Chatbot Response Validation – User Requirement Document (URD)
+
+Document Version: 1.0
+Project Name: Conversational AI Chatbot
+Document Type: User Requirement Document (URD)
+
+1. Business Background
+The organization is developing an AI-powered chatbot to interact with users and provide accurate, consistent, and context-aware responses. Due to the non-deterministic nature of LLMs, focused testing is required to evaluate behavior and failure patterns.
+
+2. Objective
+To test and analyze chatbot responses for consistency, ambiguity handling, correction handling, and configuration-based behavior variation.
+
+3. In Scope
+- Repeated user queries
+- Ambiguous inputs
+- User disagreement scenarios
+- Temperature-based response variation
+
+4. Out of Scope
+- Model training
+- Performance testing
+- Security testing
+
+5. Functional Requirements
+
+FR-01: Handling Repeated Inputs
+The chatbot shall respond consistently to repeated identical prompts.
+
+FR-02: Non-Deterministic Behavior
+The chatbot may vary wording but should avoid logical contradictions.
+
+FR-03: Ambiguous Prompt Handling
+The chatbot should ask clarifying questions or state assumptions.
+
+FR-04: User Disagreement Handling
+The chatbot should reassess responses politely when challenged.
+
+FR-05: Temperature-Based Behavior
+Responses should vary appropriately with configuration changes.
+
+6. Non-Functional Requirements
+- Consistency
+- Explainability
+- Graceful failure
+
+7. Test Deliverables
+- Observation Report
+- Failure Pattern Table
+
+8. Success Criteria
+Behavioral patterns and failure modes are clearly documented.
+
